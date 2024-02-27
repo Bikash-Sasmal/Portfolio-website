@@ -76,7 +76,7 @@ body {
 }
 
 .navbar a {
-    font-size: 17px;
+    font-size: 16px;
     color: var(--text-color);
     font-weight: 600;
     margin-left: 3.5rem;
@@ -374,8 +374,8 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: auto;
-    padding-bottom: 4rem;
+    /* min-height: auto; */
+    padding-bottom: 6rem;
 }
 
 .education h2 {
@@ -461,8 +461,8 @@ span {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    min-height: auto;
-    padding-bottom: 4rem;
+    /* min-height: auto; */
+    padding-bottom: 6rem;
     background: var(--second-bg-color);
 }
 
@@ -497,6 +497,7 @@ span {
     z-index: 1;
     overflow: hidden;
 }
+
 .skills-box .skills-content:hover::before {
     width: 100%;
 }
@@ -772,9 +773,19 @@ section:nth-child(odd) .animate.scroll {
         padding: 10rem 4% 2rem;
     }
 
+    .header .navbar a{
+        font-weight: 10px;
+    }
     .home {
         padding: 0 4%;
     }
+
+    .home-imgHover {
+        width: 56%;
+        /* pointer-events: none; */
+
+    }
+
 
     .footer {
         padding: 2rem 4%;
@@ -850,12 +861,12 @@ section:nth-child(odd) .animate.scroll {
     }
 
     .animate.home-img {
-        width: 120%;
+        width: 100%;
     }
 
     .home-imgHover {
-        width: 120%;
-        pointer-events: none;
+        width: 57%;
+        /* pointer-events: none; */
 
     }
 }
@@ -893,6 +904,7 @@ section:nth-child(odd) .animate.scroll {
         width: 120%;
 
     }
+
     .skill {
         font-size: 30%;
         padding-bottom: 151px;
@@ -1060,6 +1072,7 @@ section:nth-child(odd) .animate.scroll {
 
 #projects {
     background-color: var(--bg-color);
+    /* height: 100vh; */
 }
 
 #projects h2 {
@@ -1153,4 +1166,3 @@ section:nth-child(odd) .animate.scroll {
 .project-card:hover .layer {
     height: 100%;
 }
-
