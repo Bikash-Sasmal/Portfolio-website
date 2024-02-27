@@ -147,7 +147,7 @@ section {
     content: '';
     position: absolute;
     top: 0;
-    left: 0;
+    left: 0;ge 
     width: 0;
     height: 100%;
     border-right: 2px solid var(--main-color);
