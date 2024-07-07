@@ -192,7 +192,6 @@ section {
     overflow: hidden;
     transition: .5s;
 }
-
 .btn-box .btn:hover {
     color: var(--main-color);
 }
