@@ -169,7 +169,11 @@ section {
     width: 32rem;
     height: 4rem;
 }
-
+.btn-box a:nth-child(2){
+    width: 15rem;
+    display: flex;
+    justify-content: space-around;
+}
 .btn-box .btn {
     position: relative;
     display: inline-flex;
